@@ -29,7 +29,7 @@ window.addEventListener("keydown", (event) => {
 
 // FETCHING JSON FROM MY GITHUB REPO
 const skillsApi = async () => {
-    const skillGithubUrl = "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/script/skills.json";
+    const skillGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/script/skills.json";
 
     try {
         const response = await fetch(skillGithubUrl);
