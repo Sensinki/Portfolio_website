@@ -25,25 +25,11 @@ window.addEventListener("keydown", (event) => {
     }
 });
 
-// WEB API
-const boredapi = "https://www.boredapi.com/api/activity";
-const getActivity = async () => {
-    try {
-        const response = await fetch(boredapi);
-        const data = await response.json();
-        // the activity is visible in "random" id
-        document.getElementById("random").innerText = data.activity;
-    } catch (error) {
-        console.error("Unfortunately, this generator is not working now.", error);
-    }
-};
-// if the button is clicked, do getActivity function
-const buttonActivity = document.getElementById("getActivityButton");
-buttonActivity.addEventListener("click", getActivity);
+
 
 // FETCHING JSON FROM MY GITHUB REPO
 const skillsApi = async () => {
-    const skillGithubUrl = "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/script/skills.json";
+    const skillGithubUrl = "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/script/skills.json";
 
     try {
         const response = await fetch(skillGithubUrl);
