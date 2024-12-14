@@ -1,0 +1,70 @@
+{
+    "html": {
+        "title": "HTML",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/html.png"  
+    },
+    "css": {
+        "title": "CSS",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/css.svg.png"  
+    },
+     "js": {
+        "title": "JavaScript",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/js.png"  
+    },
+     "git": {
+        "title": "Git",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/git.png"  
+    },
+     "github": {
+        "title": "GitHub",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/github.png"  
+    },
+     "wordpress": {
+        "title": "Wordpress",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/wordpress.png"  
+    },
+     "wix": {
+        "title": "Wix",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/wix.png"  
+    },
+     "mongodb": {
+        "title": "MongoDB",
+        "image": "https://seeklogo.com/images/M/mongodb-logo-655F7D542D-seeklogo.com.png"  
+    },
+     "nodejs": {
+        "title": "NodeJS",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/nodejs.png"  
+    },
+     "handlebars": {
+        "title": "Handlebars",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/handlebars.png"  
+    },
+     "express": {
+        "title": "Express",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/expressjs.png"  
+    },
+     "xd": {
+        "title": "Adobe XD",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/xd.png"  
+    },
+     "figma": {
+        "title": "Figma",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/figma.png"  
+    },
+     "miro": {
+        "title": "Miro",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/miro.png"  
+    },
+     "word": {
+        "title": "Microsoft Word",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/word.png"  
+    },
+     "pp": {
+        "title": "Microsoft PowerPoint",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/pp.png"  
+    },
+     "excel": {
+        "title": "Microsoft Excel",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/excel.png"  
+    }
+}

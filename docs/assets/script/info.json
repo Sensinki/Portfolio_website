@@ -1,0 +1,16 @@
+{
+    "firstName": "Sena",
+    "lastName": "Korkutan",
+    "avatar_url": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/avatarsena.png",
+    "age": "22",
+    "city": "Amsterdam",
+    "hobbies": ["Films", "Music", "Anime", "Series", "Voleyball", "Table Tennis", "Reading", "Gaming", "Going out with friends"],
+    "truthAndLies": ["I have moved 17 times so far.", "I can't swim.", "I am not a multitasker."],
+    "bio": "I'm an aspiring Frontend Developer from Amsterdam. I am interested in UX/UI design and Web development and I like learning new things that help me improve my skills and become a better designer. I am currently studying Communication and Multimedia Design, where I am constantly expanding my horizon in regards to design.",
+    "favouriteAnimal": "Cat",
+    "socials": {
+        "discord": "https://discord.com/users/933739295125160007",
+        "linkedin": "https://www.linkedin.com/in/sena-nur-k-50169721a/",
+        "github": "https://github.com/Sensinki"
+    }
+}
