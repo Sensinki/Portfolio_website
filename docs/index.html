@@ -1,136 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Sena's portfolio</title>
-        <link rel="icon" type="image/x-icon" href="./assets/images/avatarsena.png" />
-        <link rel="stylesheet" href="./assets/style/style.css" />
-    </head>
-    <body>
-        <header>
-            <a href="index.html">
-                <img src="./assets/images/random_fun.png" alt="logo" id="logo" />
-            </a>
 
-            <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="" /></button>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sena's portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/avatarsena.png" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+</head>
 
-            <nav>
-                <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" /></button>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#learn">Learn</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+<body>
+    <header>
+        <a href="index.html">
+            <!-- <img src="./assets/images/random_fun.png" alt="logo" id="logo" /> -->
+            <img src="./assets/images/avatarsena.png" alt="avatar" id="logo" />
 
-        <main>
-            <section id="home">
-                <article>
-                    <h1>Hello there,</h1>
-                    <h2>I'm Sena</h2>
+        </a>
 
-                    <!-- typewriting effect -->
-                    <!-- https://css-tricks.com/snippets/css/typewriter-effect/ -->
-                    <p>
-                        I am into
-                        <span class="typing-1"> Web Development</span>
-                        <span class="typing-2">UI/UX Design</span>
-                    </p>
-                </article>
-                <img src="./assets/images/avatarsena.png" alt="avatar" />
-            </section>
+        <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="" /></button>
 
-            <section id="about">
-                <article>
-                    <h1>About me</h1>
-                    <h2>Who am I?</h2>
-                    <p>
-                        I'm an aspiring Frontend Developer from Amsterdam. I am interested in UX design and Web development and I like learning new things that
-                        help me improve my skills and become a better designer. I am currently studying Communication and Multimedia Design, where I am
-                        constantly expanding my horizon in regards to design.
-                    </p>
-                </article>
-                <img src="./assets/images/sena.png" alt="image" />
-            </section>
+        <nav>
+            <button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" /></button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <section id="learn">
-                <h1>Random Activity Generator</h1>
-                <button id="getActivityButton">Get Random Activity</button>
-                <p id="random"></p>
-            </section>
+    <main>
+        <section id="home">
+            <article>
+                <h1>Hello there,</h1>
+                <h2>I'm Sena</h2>
 
-            <section id="skills">
-                <h1>Skills & Abilities</h1>
-                <ul class="skills"></ul>
+                <!-- typewriting effect -->
+                <!-- https://css-tricks.com/snippets/css/typewriter-effect/ -->
                 <p>
-                    <span>L</span>
-                    <span>o</span>
-                    <span>a</span>
-                    <span>d</span>
-                    <span>i</span>
-                    <span>n</span>
-                    <span>g</span>
-                    <span>.</span>
-                    <span>.</span>
-                    <span>.</span>
+                    I am into
+                    <span class="typing-1"> Web Development</span>
+                    <span class="typing-2">UI/UX Design</span>
                 </p>
-            </section>
+            </article>
+            <img src="./assets/images/avatarsena.png" alt="avatar" id="avatar" />
+        </section>
 
-            <section id="contact">
-                <h1>Get In Touch</h1>
+        <section id="about">
+            <article>
+                <h1>About me</h1>
+                <h2>Who am I?</h2>
+                <p>
+                    I'm an aspiring Frontend Developer from Amsterdam. I am interested in UX design and Web development
+                    and I like learning new things that
+                    help me improve my skills and become a better designer. I am currently studying Communication and
+                    Multimedia Design, where I am
+                    constantly expanding my horizon in regards to design.
+                </p>
+            </article>
+            <img src="./assets/images/sena.png" alt="image" />
+        </section>
 
-                <!-- https://www.youtube.com/watch?v=-HeadgoqJ7A&ab_channel=GreatStack -->
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <p>Let's talk over email :)</p>
-
-                    <input type="hidden" name="access_key" value="2cb6097d-9196-4c9e-9a4d-6150ff8d6fb9" />
-
-                    <fieldset>
-                        <input id="firstname" type="text" placeholder=" " name="firstname" aria-label="Name" minlength="5" maxlength="50" />
-                        <div aria-hidden="true" class="cut"></div>
-                        <label for="firstname" class="placeholder">Your Name</label>
-                    </fieldset>
-                    <fieldset>
-                        <input id="email" type="text" placeholder=" " name="email" aria-label="Email" minlength="5" maxlength="50" />
-                        <div aria-hidden="true" class="cut cut-short"></div>
-                        <label for="email" class="placeholder">E-mail</label>
-                    </fieldset>
-                    <fieldset>
-                        <input id="message" placeholder=" " name="text" name="message" aria-label="Message" minlength="5" maxlength="500" autocomplete="off" />
-                        <div aria-hidden="true" class="cut"></div>
-                        <label for="message" class="placeholder">Message</label>
-                    </fieldset>
-                    <input type="submit" aria-label="Submit the form" />
-                </form>
+        <section id="learn">
+            <h1>Projects</h1>
+            <section id="projects">
 
                 <section>
-                    <h3>Contact</h3>
+                    <h3>Project Name</h3>
+                    <img src="/" alt="project name">
+                    <p>explaining</p>
+                    <button></button>
+                </section>
 
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/sena-nur-k-50169721a/"><img src="./assets/images/linkedin.png" alt="linkedin" /></a>
-                        </li>
-                        <li>
-                            <a href="https://discord.com/users/933739295125160007"><img src="./assets/images/discord.png" alt="discord" /></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Sensinki"><img src="./assets/images/gh.png" alt="github" /></a>
-                        </li>
-                        <li>
-                            <a href="mailto: snnrkrk1@gmail.com"><img src="./assets/images/email.png" alt="mail" /></a>
-                        </li>
-                    </ul>
+                <section>
+                    <h3>Project Name</h3>
+                    <img src="/" alt="project name">
+                    <p>explaining</p>
+                    <button></button>
+                </section>
 
-                    <p>Designed with <span>&hearts;</span> by <a href="linkedin">Sena Nur Korkutan</a></p>
+                <section>
+                    <h3>Project Name</h3>
+                    <img src="/" alt="project name">
+                    <p>explaining</p>
+                    <button></button>
                 </section>
             </section>
-        </main>
+        </section>
 
-        <script src="assets/script/script.js" async></script>
-    </body>
+        <section id="skills">
+            <h1>Skills & Abilities</h1>
+            <ul class="skills"></ul>
+            <p>
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </p>
+        </section>
+
+        <section id="contact">
+            <h1>Get In Touch</h1>
+
+            <!-- https://www.youtube.com/watch?v=-HeadgoqJ7A&ab_channel=GreatStack -->
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <p>Let's talk over email :)</p>
+
+                <input type="hidden" name="access_key" value="2cb6097d-9196-4c9e-9a4d-6150ff8d6fb9" />
+
+                <fieldset>
+                    <input id="firstname" type="text" placeholder=" " name="firstname" aria-label="Name" minlength="5"
+                        maxlength="50" />
+                    <div aria-hidden="true" class="cut"></div>
+                    <label for="firstname" class="placeholder">Your Name</label>
+                </fieldset>
+                <fieldset>
+                    <input id="email" type="text" placeholder=" " name="email" aria-label="Email" minlength="5"
+                        maxlength="50" />
+                    <div aria-hidden="true" class="cut cut-short"></div>
+                    <label for="email" class="placeholder">E-mail</label>
+                </fieldset>
+                <fieldset>
+                    <input id="message" placeholder=" " name="text" name="message" aria-label="Message" minlength="5"
+                        maxlength="500" autocomplete="off" />
+                    <div aria-hidden="true" class="cut"></div>
+                    <label for="message" class="placeholder">Message</label>
+                </fieldset>
+                <input type="submit" aria-label="Submit the form" />
+            </form>
+
+            <section>
+                <h3>Contact</h3>
+
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sena-nur-k-50169721a/"><img
+                                src="./assets/images/linkedin.png" alt="linkedin" /></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/users/933739295125160007"><img src="./assets/images/discord.png"
+                                alt="discord" /></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Sensinki"><img src="./assets/images/gh.png" alt="github" /></a>
+                    </li>
+                    <li>
+                        <a href="mailto: snnrkrk1@gmail.com"><img src="./assets/images/email.png" alt="mail" /></a>
+                    </li>
+                </ul>
+
+                <p>Designed with <span>&hearts;</span> by <a href="linkedin">Sena Nur Korkutan</a></p>
+            </section>
+        </section>
+    </main>
+
+    <script src="assets/script/script.js" async></script>
+</body>
+
 </html>
