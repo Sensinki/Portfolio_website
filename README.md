@@ -29,7 +29,7 @@ This website is built using just basic HTML, CSS, and JavaScript. I've created a
 
 ## :cd: LIVE
 
-You can reach the website via [this link](https://sensinki.github.io/web-app-from-scratch-2324/)
+You can reach the website via [this link](https://sensinki.github.io/Portfolio_website/)
 
 ## :black_nib: AUTHOR
 
@@ -39,6 +39,6 @@ This project is made by [Sena Nur Korkutan](https://github.com/Sensinki).
 
 ## :copyright: LICENCE
 
-This project uses the [MIT License](https://github.com/Sensinki/web-app-from-scratch-2324?tab=MIT-1-ov-file).
+This project uses the [MIT License](https://github.com/Sensinki/Portfolio_website?tab=MIT-1-ov-file).
 
 
