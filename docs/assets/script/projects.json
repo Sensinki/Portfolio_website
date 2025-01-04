@@ -1,51 +1,32 @@
 {
     "weekly-nerd": {
         "project_name": "Weekly Nerd",
-        "image_project": "",
+        "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/weeklynerd-mockup.png",
         "project_explaining": "A website where I log my weekly discoveries from the world of web design and development. ",
         "demo_project": "https://weekly-nerd-blog.onrender.com/"
     },
     "bt": {
         "project_name": "Belastingdienst - Erfbelasting Formulier",
-        "image_project": "",
+        "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/erfbelasting-mockup.png",
         "project_explaining": "This website is for school project! I have to convert an official tax-PDF into an interactive and user-friendly website.",
         "demo_project": "https://sensinki.github.io/browser-technologies-/"
     },
     "api": {
         "project_name": "MovyMovie",
-        "image_project": "",
+        "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/movymovie-mockup.png",
         "project_explaining": "I developed a Netflix-inspired application using TheMovieDB API, focusing on fetching and managing data.",
         "demo_project": "https://api-rdk6.onrender.com/movie/1241982"
     },
     "hcd": {
         "project_name": "Accesible website for Nicolette",
-        "image_project": "",
+        "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/nicolette-mockups.png",
         "project_explaining": "An accessible website for Nicolette who has mobility limitations.",
         "demo_project": "https://sensinki.github.io/human-centered-design/"
     },
     "css-to-the-resque": {
         "project_name": "Retro TV",
-        "image_project": "",
-        "project_explaining": "A control panel application designed exclusively with HTML and CSS",
+        "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/retrotv-mockup.png",
+        "project_explaining": "A responsive control panel application designed exclusively with HTML and CSS",
         "demo_project": "https://sensinki.github.io/css-to-the-rescue/"
     }
-    // ,
-    // "css-day": {
-        // "project_name": "CSS Day",
-        // "image_project": "group",
-        // "project_explaining": "bla",
-    //     "demo_project": "https://cssdayta.vercel.app/"
-    // },
-    // "web-app-from-stratch": {
-    //     "project_name": "Devs.exe",
-    //     "image_project": "group",
-    //     "project_explaining": "bla",
-    //     "demo_project": "https://n13l5a97.github.io/Devs.exe/"
-    // },
-    // "tumi-mundo": {
-    //     "project_name": "Tumi Mundo",
-    //     "image_project": "group",
-    //     "project_explaining": "bla",
-    //     "demo_project": "https://tumimundo.vercel.app/"
-    // }
 }

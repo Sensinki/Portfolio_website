@@ -27,7 +27,7 @@ window.addEventListener("keydown", (event) => {
 
 
 
-// FETCHING JSON FROM MY GITHUB REPO
+// FETCHING SKILLS JSON FROM MY GITHUB REPO
 const skillsApi = async () => {
     const skillGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/script/skills.json";
 
@@ -63,3 +63,104 @@ const skillsApi = async () => {
     }
 };
 skillsApi();
+
+// FETCHING PROJECTS JSON FROM MY GITHUB REPO
+// const projectsApi = async () => {
+//     const projectGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/script/projects.json";
+
+//     try {
+//         const response = await fetch(projectGithubUrl);
+//         const data = await response.json();
+//         const projectsList = document.querySelector(".projects");
+
+//         Object.keys(data).forEach((projectKey) => {
+//             const project = data[projectKey];
+
+//             // creating elements
+//             const projectListItem = document.createElement("li");
+//             const projectImg = document.createElement("img");
+//             projectImg.classList.add("avatarIcon");
+//             projectImg.src = project.image_project;
+//             projectImg.alt = project.project_name;
+
+//             const titleParagraph = document.createElement("p");
+//             titleParagraph.classList.add("title");
+//             titleParagraph.textContent = project.title;
+
+//             // projectImg and titleParagraph should be in projectListItem
+//             projectListItem.appendChild(projectImg);
+//             projectListItem.appendChild(titleParagraph);
+
+//             // projectListItem should be in projectsList
+//             projectsList.appendChild(projectListItem);
+//         });
+//     } catch (error) {
+//         console.error("Error fetching or processing JSON:", error);
+//     }
+// };
+// projectsApi();
+
+const projectsApi = async () => {
+    const projectsGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/main/docs/assets/script/projects.json";
+
+    try {
+        console.log("Fetching data from:", projectsGithubUrl); // Log the URL
+
+        const response = await fetch(projectsGithubUrl);
+        console.log("Response received:", response); // Log the raw response
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`); // Handle HTTP errors
+        }
+
+        const data = await response.json();
+        console.log("Parsed JSON data:", data); // Log the JSON data
+
+        const projectsList = document.querySelector(".projects");
+        if (!projectsList) {
+            console.error("Error: .projects element not found in the DOM!");
+            return;
+        }
+
+        // Iterating over the keys in the JSON object
+        Object.keys(data).forEach((key) => {
+            const project = data[key];
+            console.log(`Processing project: ${key}`, project); // Log each project
+
+            // Creating elements
+            const listItem = document.createElement("li");
+
+            const img = document.createElement("img");
+            img.src = project.image_project.replace("blob/main", "raw/main"); // Adjust GitHub URL
+            img.alt = project.project_name;
+
+            const title = document.createElement("h3");
+            title.textContent = project.project_name;
+
+            const description = document.createElement("p");
+            description.textContent = project.project_explaining;
+
+            const link = document.createElement("a");
+            link.href = project.demo_project;
+            link.textContent = "View Demo";
+            link.target = "_blank";
+
+            // Appending elements
+            listItem.appendChild(img);
+            listItem.appendChild(title);
+            listItem.appendChild(description);
+            listItem.appendChild(link);
+
+            projectsList.appendChild(listItem);
+        });
+
+        console.log("All projects rendered successfully.");
+    } catch (error) {
+        console.error("Error fetching or processing JSON:", error); // Log any errors
+    }
+};
+
+projectsApi();
+
+
+
