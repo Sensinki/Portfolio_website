@@ -101,7 +101,7 @@ skillsApi();
 // projectsApi();
 
 const projectsApi = async () => {
-    const projectsGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/main/docs/assets/script/projects.json";
+    const projectsGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/script/projects.json";
 
     try {
         console.log("Fetching data from:", projectsGithubUrl); // Log the URL
