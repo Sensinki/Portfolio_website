@@ -25,8 +25,6 @@ window.addEventListener("keydown", (event) => {
     }
 });
 
-
-
 // FETCHING SKILLS JSON FROM MY GITHUB REPO
 const skillsApi = async () => {
     const skillGithubUrl = "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/script/skills.json";
@@ -162,5 +160,21 @@ const projectsApi = async () => {
 
 projectsApi();
 
+// FIREFLY ANIMATION
 
+const fireflies = document.querySelectorAll(".firefly");
+
+// Create smooth random motion for each firefly
+fireflies.forEach((firefly) => {
+    const randomDuration = Math.random() * 10 + 5; // Random duration between 5s and 15s
+    const randomSize = Math.random() * 0.5 + 0.5; // Random scale between 0.5 and 1
+    const randomX = Math.random() * window.innerWidth; // Random horizontal position
+    const randomY = Math.random() * window.innerHeight; // Random vertical position
+
+    // Apply smooth random movement
+    firefly.style.left = `${Math.random() * 100}vw`;
+    firefly.style.top = `${Math.random() * 100}vh`;
+    firefly.style.animationDuration = `${randomDuration}s`;
+    firefly.style.transform = `scale(${randomSize})`;
+});
 

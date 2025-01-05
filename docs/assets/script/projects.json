@@ -15,7 +15,7 @@
         "project_name": "MovyMovie",
         "image_project": "https://github.com/Sensinki/Portfolio_website/blob/main/docs/assets/images/projects-images/movymovie-mockup.png",
         "project_explaining": "I developed a Netflix-inspired application using TheMovieDB API, focusing on fetching and managing data.",
-        "demo_project": "https://api-rdk6.onrender.com/movie/1241982"
+        "demo_project": "https://api-rdk6.onrender.com/"
     },
     "hcd": {
         "project_name": "Accesible website for Nicolette",
