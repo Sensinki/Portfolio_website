@@ -41,11 +41,11 @@
     },
      "svelte": {
         "title": "Svelte",
-        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/svelte.png"  
+        "image": "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/images/svelte.png"  
     },
      "ejs": {
         "title": "EJS",
-        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/ejs.png"  
+        "image": "https://raw.githubusercontent.com/Sensinki/Portfolio_website/refs/heads/main/docs/assets/images/ejs.png"  
     },
      "handlebars": {
         "title": "Handlebars",
