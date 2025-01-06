@@ -35,13 +35,21 @@
         "title": "NodeJS",
         "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/nodejs.png"  
     },
-     "handlebars": {
-        "title": "Handlebars",
-        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/handlebars.png"  
-    },
      "express": {
         "title": "Express",
         "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/expressjs.png"  
+    },
+     "svelte": {
+        "title": "Svelte",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/svelte.png"  
+    },
+     "ejs": {
+        "title": "EJS",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/ejs.png"  
+    },
+     "handlebars": {
+        "title": "Handlebars",
+        "image": "https://raw.githubusercontent.com/Sensinki/web-app-from-scratch-2324/main/docs/assets/images/handlebars.png"  
     },
      "xd": {
         "title": "Adobe XD",
