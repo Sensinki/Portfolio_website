@@ -58,6 +58,7 @@ a {
     --input: #c4c4e0;
     --input-green: #dfffe7;
     --input-pink: #ffd7d7;
+    --form-background: #7a4961;
 }
 
 /* new colors */
@@ -617,7 +618,8 @@ a {
         padding: 1em;
 
         /* color */
-        background-color: var(--magenta);
+        background-color: var(--form-background);
+
 
         /* border */
         border-radius: 1em;
@@ -688,7 +690,7 @@ a {
         width: 76px;
 
         /* color */
-        background-color: var(--magenta);
+        background-color: var(--form-background);
         /* border */
         border-radius: 10px;
 
@@ -749,7 +751,7 @@ a {
 
         /* size */
         height: 50px;
-        width: 100%;
+        width: 15.5em;
         max-width: 17.5em;
 
         box-sizing: border-box;
